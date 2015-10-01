@@ -44,9 +44,20 @@ a{
 	color: red;
 }
 
-
+/*
 #githubLink{
 
 	font-size:20px;
 	text-align:center;
+}
+*/
+
+a.spoiler {
+	background: black;
+	color: black;
+}
+
+a.spoiler:hover, a.spoiler:active{
+	background: black;
+	color:white;
 }

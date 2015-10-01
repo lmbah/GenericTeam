@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- 
 	Made by chingyg
-			m to the Truj
+				m to the Truj
 			courtney
 			manoj
 -->
@@ -37,11 +37,11 @@
 				<p>
 
 
-					<b>Date:</b> Friday September, 25th
+					<b>Date:</b> Saturday, October 3rd
 					<br><br>
-					<b>Location:</b> Rm8025 Booz Building, McLean
+					<b>Location:</b> Room 5230, Herndon Parkway
 					<br><br>
-					<b>08:00 AM</b> Welcome by Ashley (Tech Tank) and Breakfast 
+					<b>08:00 AM</b> <s>Welcome by Ashley (Tech Tank) and</s> Breakfast 
 					<br><br>
 					<b>08:15 AM</b> Review of goals and resources
 					<br><br>
@@ -51,7 +51,7 @@
 					<br><br>
 					<b>03:30 PM</b> Coding Ends
 					<br><br>
-					<b>03:45 PM</b> Retrospective on Dry- Run
+					<b>04:00 PM</b> <b>END</b>
 					<br><br>
 					<br><br>
 
@@ -83,17 +83,27 @@
 			</div>
 
 			<div id="textID" class="col-md-8">	 
-				<h1 id="hackathonHeading" style="text-align:center">Welcome to the GridIron Hackathon</h1>
+				<h1 id="hackathonHeading" style="text-align:center">Welcome to the GridIron Hackathon v2.4.1</h1>
 				<br>	
 				<h3 style="text-align:center">The scenario </h3>
 
 				<p>
-
-					Your team of advanced engineering ninjas is tasked with helping ensure the future of our mystery site is bright. In order to keep the site from being corrupted with operational drift and technical debt we need to create a development process that eliminates these evils from creeping in. At the end of the event you will have an opportunity to showcase your DevOps skills in front of our esteemed judges. Please review the criteria closely and feel free to focus on a few or achieve them all. Improvements made to the mystery site itself will be appreciated but not weighted as heavily as the described criteria.
-
+					Your team of advanced engineering ninjas is tasked with helping ensure the future of our mystery site is bright. In order to keep the site from being corrupted with operational drift and technical debt we need to create a development process that eliminates these evils and keeps them from creeping back in. At the end of the event you will have an opportunity to showcase your DevOps skills in front of our esteemed judges. Please review all aspects of the criteria closely, and feel free to focus on a few DevOps goals, or achieve them all. Improvements made to the mystery site itself will be appreciated but not weighted as heavily as the described criteria.
 				</p>
 				<br>
-				<h3>The judges will be looking for the following from your solutions: </h3>
+				<h3 style="text-align:center">Presenting</h3>
+
+				<p>
+					This is your time to shine. Teams will have only 5* minutes to showcase their DevOps mastery. There is no required format for the presentation, but it is recommended you submit a code repo with additional documentation that provide detail of the solution’s inner workings. Code repositories will be further scrutinized after the presentation, so be sure to point out any artifacts the judges should pay particular attention to.
+				<br>
+				<br>
+					Remember this is a DevOps competition, and showcasing how your solution provides value to some common use cases would be useful. For example, what happens after a developer commits new code? When would that code make it to production? What happens if one of your servers mysteriously goes down? What kinds of bugs would get caught before they made it to production? How does the team know the current load on the servers? Where do developers go to start to debug issues in production? How is persistent data managed?
+				<br>
+				<br>
+					*An additional 3 minutes will be added to teams who decide to create their own web application to explain their application’s purpose.
+				</p>
+				<br>
+				<h3 style="text-align:center">Scoring Criteria </h3>
 				<br>
 
 				
@@ -101,19 +111,23 @@
 				
 				<ul>
 
-					<li>Do you have a Continuous Integration mechanism?</li>
+					<li>The judges will be looking for the following from your solutions:</li>
 					<br>
-					<li>Do you have the capability to achieve Continuous Delivery, if you wanted to?</li>
+					<li>Do you have a <u>Continuous Integration</u> mechanism?</li>
 					<br>
-					<li>Does your solution use Containerization technology and how will it make the development better?</li>
+					<li>Do you have the capability to achieve <u>Continuous Delivery</u>, if you wanted to?</li>
 					<br>
-					<li>What Automated Testing does your process do before the code is moved to production?</li>
+					<li>Does your solution use <u>Containerization</u> technology and how will it make the development better?</li>
 					<br>
-					<li>What is being Monitored and how would people be alerted of potential errors?</li>
+					<li>What <u>Automated Testing</u> does your process do before the code is moved to production?</li>
 					<br>
-					<li>How are the Logs Managed?</li>
+					<li>What is being <u>Monitored</u> and how would people be <u>alerted</u> of potential errors?</li>
 					<br>
-					<li>How will the team communicate ideas, tasks, schedules, versions, and catastrophic errors?</li>
+					<li>How are the <u>Logs Managed</u>?</li>
+					<br>
+					<li>How will the team <u>Communicate</u> ideas, tasks, schedules, versions, and catastrophic errors?</li>
+					<br>
+					<li>How well does your system react to the <u>Chaos</u> of real world environments?</li>
 				</ul>
 				<br>
 
@@ -122,22 +136,21 @@
 				</p>
 
 				<p>
-					Also, no big deal, if you cannot get to them all. Your goal should be to impress the judges with your DevOps skills, not how fast you can type. Ensuring all the different pieces of your solution work together will win you big points; after all, this is a DevOps competition.
+					Also, it is no big deal if you cannot get to them all. Your goal should be to impress the judges with your DevOps skills, not how fast you can type. Ensuring all the different pieces of your solution work together will win you big points; after all, this is a DevOps competition.
 				</p>
 				<br>
-				<h3 style = "text-align:center">
-					Ready to get started?!
-				</h3>
+				<h3 style = "text-align:center">Systems Check </h3>
+				<h4 style = "text-align:center">Ready to get started?!</h4>
 				<br>
 
 				<p>
 					First thing you need is to check out your awesome new environments in the sky. These will be the land to build your DevOps castle on. Each team has their very own set of 4 Ubuntu boxes, which are listed in the project's README.md. During breakfast, you will get an email that contains a .pem certificate. This file will allow you to SSH into your fancy new images. Next step is to access your new machines and get the mystery site up and running!
 				</p>
 
-				<p>
+				<p style = "text-align:center">
 					Excited yet?? What is this mystery site??
 				</p>
-				<p>
+				<p style = "text-align:center">
 					Now is the time to pull the curtains, and reveal:
 				</p>
 				<br>
@@ -154,7 +167,22 @@
 					<br><br><br><center>Happy DevOpsing!, and Good luck!!<center>
 				</h3>
 
-
+				<h3 style = "text-align:center">Mystery Web Application Replacement Clause:</h3>
+				<br>
+				<p>
+					If the provided mystery application does not fulfill your hopes and dreams, your team may develop a new application that better suits your solution’s vision. The criterias for this application are as follows:
+				</p>
+				<ul>
+					<li>It must be accessible from a modern web browser</li>
+					<br>
+					<li>It must be hosted on the provided AWS environments</li>
+					<br>
+					<li>It must attempt to solve a real world problem</li>
+				</ul>
+				<br>
+				<p>
+					Obviously these criteria are vague, and it will be up to the judge’s discretion to determine the validity of your application during the presentation stage. The judges really like the mystery application, so by using that you will automatically score full marks for that area of scoring criteria.
+				</p>
 			</div>
 		</div>
 	</div>
